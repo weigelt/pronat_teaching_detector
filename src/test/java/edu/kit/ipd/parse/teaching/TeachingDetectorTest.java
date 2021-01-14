@@ -1,7 +1,6 @@
 package edu.kit.ipd.parse.teaching;
 
 import edu.kit.ipd.parse.luna.graph.*;
-import org.junit.Assert;
 import org.junit.Test;
 
 public class TeachingDetectorTest extends AbstractTeachingDetectorTest {

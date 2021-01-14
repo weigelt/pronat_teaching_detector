@@ -70,7 +70,7 @@ public class TeachingDetector extends AbstractAgent {
 
 	private void addMockedClassification(INode node) {
 		node.setAttributeValue(IS_TEACHING_SEQUENCE_ATTRIBUTE_NAME, "false");
-		node.setAttributeValue(IS_TEACHING_SEQUENCE_PROBABILITY_ATTRIBUTE_NAME, 1.0f);
+		node.setAttributeValue(IS_TEACHING_SEQUENCE_PROBABILITY_ATTRIBUTE_NAME, 0.0f);
 		node.setAttributeValue(TEACHING_SEQUENCE_PART_ATTRIBUTE_VALUE, MulticlassLabel.DESC.toString());
 	}
 
