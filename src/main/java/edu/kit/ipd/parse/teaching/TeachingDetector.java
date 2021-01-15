@@ -22,9 +22,12 @@ public class TeachingDetector extends AbstractAgent {
 	public static final String IS_TEACHING_SEQUENCE_PROBABILITY_ATTRIBUTE_NAME = "isTeachingSequenceProbability";
 	public static final String TEACHING_SEQUENCE_PART_ATTRIBUTE_VALUE = "teachingSequencePart";
 
+	public TeachingDetector() {
+		setId(ID);
+	}
+
 	@Override
 	public void init() {
-		setId(ID);
 	}
 
 	@Override
