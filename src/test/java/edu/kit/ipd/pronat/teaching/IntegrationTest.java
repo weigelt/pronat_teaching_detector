@@ -1,13 +1,13 @@
-package edu.kit.ipd.parse.teaching;
+package edu.kit.ipd.pronat.teaching;
 
-import edu.kit.ipd.parse.graphBuilder.GraphBuilder;
 import edu.kit.ipd.parse.luna.data.MissingDataException;
-import edu.kit.ipd.parse.luna.data.PrePipelineData;
 import edu.kit.ipd.parse.luna.pipeline.PipelineStageException;
-import edu.kit.ipd.parse.luna.tools.StringToHypothesis;
-import edu.kit.ipd.parse.ner.NERTagger;
-import edu.kit.ipd.parse.shallownlp.ShallowNLP;
-import edu.kit.ipd.parse.srlabeler.SRLabeler;
+import edu.kit.ipd.pronat.graph_builder.GraphBuilder;
+import edu.kit.ipd.pronat.ner.NERTagger;
+import edu.kit.ipd.pronat.prepipedatamodel.PrePipelineData;
+import edu.kit.ipd.pronat.prepipedatamodel.tools.StringToHypothesis;
+import edu.kit.ipd.pronat.shallow_nlp.ShallowNLP;
+import edu.kit.ipd.pronat.srl.SRLabeler;
 import org.junit.Test;
 
 public class IntegrationTest extends AbstractTeachingDetectorTest {

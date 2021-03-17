@@ -1,4 +1,4 @@
-package edu.kit.ipd.parse.teaching;
+package edu.kit.ipd.pronat.teaching;
 
 import edu.kit.ipd.parse.luna.agent.AbstractAgent;
 import edu.kit.ipd.parse.luna.graph.IArcType;
@@ -9,6 +9,10 @@ import org.kohsuke.MetaInfServices;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author Sebastian Weigelt
+ * @author Vanessa Steurer
+ */
 @MetaInfServices(AbstractAgent.class)
 public class TeachingDetector extends AbstractAgent {
 

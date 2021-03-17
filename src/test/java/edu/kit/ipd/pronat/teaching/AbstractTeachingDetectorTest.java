@@ -1,4 +1,4 @@
-package edu.kit.ipd.parse.teaching;
+package edu.kit.ipd.pronat.teaching;
 
 import edu.kit.ipd.parse.luna.graph.IGraph;
 import edu.kit.ipd.parse.luna.graph.INode;
