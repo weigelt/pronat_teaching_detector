@@ -1,4 +1,4 @@
-package edu.kit.ipd.pronat.teaching;
+package edu.kit.ipd.pronat.teaching.classifier;
 
 import java.util.HashMap;
 import java.util.Map;
